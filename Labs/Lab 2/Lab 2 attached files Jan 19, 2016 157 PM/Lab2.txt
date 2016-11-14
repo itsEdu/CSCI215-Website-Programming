@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<h1>My favorite team:</h1>
+		<h2 id = "team">is ...</h2>
+		<button id = 'first' type = "button" onclick = "document.getElementById('team').innerHTML = firstTeam">First team</button>
+		<button id = 'second' type = "button" onclick = "document.getElementById('team').innerHTML = secondTeam">Second team</button>
+		<button id = 'third' type = "button" onclick = "var secret = prompt('What is your secret team?' ); console.log(secret)">Secret Team</button>
+		<button id = 'fourth' type = "button" onclick = "document.write('final')">Final Word</button>
+        <script>
+            var firstTeam = prompt("What is your favorite team? ")
+            document.getElementById("first").innerHTML = firstTeam
+            var secondTeam = prompt("What is your second team? ")
+            document.getElementById("second").innerHTML = secondTeam
+        </script>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+1. =============
+	Number: 5,000,000
+	Result: Console error. Cannot read property 'toFixed' of undefined.
+	Fix: 'taxes = ' changed to 'tax = '
+2. =============
+	Number: 8700
+	Result: 870.00
+	Fix: N/A
+3. =============
+	Number: 85,651
+	Result: 17442.48
+	Fix: Should return 17,442.28. Change 'income - 35350' to 'income - 35650'
+4. =============
+	Number: 40,000
+	Result: 5954.50
+	Fix: N/A
+5. =============
+	Number: 512,333
+	Result: 156,077.05
+	Fix: N/A
+
